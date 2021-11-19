@@ -40,14 +40,14 @@ h3, label{
     
 }
 
-/* .wrapper, .container, .content, .body, .greeting,
+.wrapper, .container, .content, .body, .greeting,
 .information, .result {
     display: flex;
     flex-direction: column;
     justify-content:top;
     align-items: center;
     flex-wrap: wrap;
-} */
+} 
 
 .information {
     display: flex;
