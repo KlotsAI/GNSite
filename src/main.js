@@ -6,7 +6,7 @@ import {
 
 import {
     btnNextInfo,
-    btnnNxtShowGame,
+    btnNextShowGame,
     btnCheckNumber,
     btnReplayGame,
     checkNumber
@@ -16,6 +16,6 @@ import {
 startGame();
 
 btnNextInfo.addEventListener("click", informationOutput);
-btnnNxtShowGame.addEventListener("click", showGameOutput);
+btnNextShowGame.addEventListener("click", showGameOutput);
 btnCheckNumber.addEventListener("click", checkNumber);
 btnReplayGame.addEventListener("click", showGameOutput);
