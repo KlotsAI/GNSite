@@ -40,7 +40,7 @@ h3, label{
     
 }
 
-.wrapper, .container, .content, .body, .greeting,
+/*.wrapper, .container, .content, .body, .greeting,
 .information, .result {
     display: flex;
     flex-direction: column;
@@ -48,7 +48,7 @@ h3, label{
     align-items: center;
     flex-wrap: wrap;
 } 
-
+*/
 .information {
     display: flex;
     flex-direction: column;
