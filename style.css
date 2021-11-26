@@ -40,15 +40,6 @@ h3, label{
     
 }
 
-/*.wrapper, .container, .content, .body, .greeting,
-.information, .result {
-    display: flex;
-    flex-direction: column;
-    justify-content:top;
-    align-items: center;
-    flex-wrap: wrap;
-} 
-*/
 .information {
     display: flex;
     flex-direction: column;
@@ -83,7 +74,7 @@ h3, label{
 }
 
 .container {
-    width: 550px;
+	width: 550px;
     margin: 0 auto;
 }
 
@@ -96,16 +87,15 @@ h3, label{
     font-family: Impact, serif;
 }
 
+.body {
+    margin: 5px auto 15px;
+}
+
 .greeting {
     margin: 5px auto 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-}
-
-.information {
-    margin: 0 10px;
     text-align: center;
 }
 
@@ -148,4 +138,8 @@ h3, label{
     border-radius: 10px;
     font-size: 1.2em;
     z-index: 100;
+}
+
+.GameMenu button {
+    margin: 3px auto;
 }
